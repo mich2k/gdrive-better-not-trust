@@ -10,7 +10,7 @@ i=0
 src_path = '/gdrive/MyDrive/src_here' #@param {type: 'string'}
 assert os.path.exists(src_path), f"Source '{src_path}' doesn't exist!"
 
-target_path = '/gdrive/MyDrive/Corsi ZIP/dest_here' #@param {type: 'string'}
+target_path = '/gdrive/MyDrive/dest_here' #@param {type: 'string'}
 assert os.path.exists(target_path), f"Target '{target_path}' doesn't exist!"
 
 
